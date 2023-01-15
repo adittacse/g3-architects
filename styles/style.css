@@ -29,6 +29,11 @@
     align-items: center;
 }
 
+.facts, .sponsor-images {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
 /* header styles */
 header {
     padding-top: 50px;
@@ -216,7 +221,6 @@ nav ul li a {
 }
 
 .btn-primary.experience span {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
@@ -225,10 +229,6 @@ nav ul li a {
 }
 
 /* some facts styles */
-.facts {
-    padding-left: 240px;
-    padding-right: 240px;
-}
 .facts .facts-title {
     font-weight: 700;
     font-size: 45px;
@@ -275,4 +275,35 @@ nav ul li a {
     font-size: 20px;
     line-height: 23px;
     color: #727272;
+}
+
+/* sponsor styles */
+.sponsor-info {
+    text-align: center;
+}
+
+.sponsor-info h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-info p {
+    width: 542px;
+    margin: 0 auto;
+    line-height: 26px;
+    color: #727272;
+}
+
+.sponsor-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sponsor-images img {
+    filter: grayscale(100%);
 }
