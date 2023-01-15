@@ -290,7 +290,6 @@ nav ul li a {
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     margin-top: 50px;
-    /*padding-bottom: 100px;*/
 }
 
 .sponsor-images img {
@@ -304,7 +303,6 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 50px;
-    /*align-items: center;*/
 }
 
 .contact-title h2 {
@@ -499,5 +497,22 @@ footer p {
         width: 70%;
         margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
+    }
+    /* sponsor section styles */
+    .sponsor {
+        width: 100%;
+    }
+    .sponsor-info {
+        width: 100%;
+    }
+    .sponsor-info p {
+        width: 95%;
+    }
+    .sponsor-images {
+        width: 95%;
+        padding: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: row;
+        grid-row-gap: 40px;
     }
 }
