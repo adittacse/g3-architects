@@ -96,3 +96,55 @@ nav ul li a {
     width: 100%;
     border-radius: 8px;
 }
+
+/* featured container styles */
+.featured-container {
+    margin-top: 85px;
+    margin-bottom: 130px;
+    padding: 0 270px 0;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.featured-image img {
+    width: 338px;
+    height: 338px;
+}
+
+.featured-info {
+    /*width: 537px;*/
+}
+
+.featured-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.featured-title .of-our {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.featured-title .features-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.featured-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
