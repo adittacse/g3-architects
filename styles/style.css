@@ -517,12 +517,32 @@ footer p {
     }
 
     /* contact us styles*/
-    contact-info {
-        margin: 0;
-        padding: 10px;
-        width: 90%;
+    .contact-info {
+        width: 100%;
+        padding: 0px;
+        margin-right: 0px;
         grid-template-columns: repeat(1, 1fr);
-        /*grid-auto-flow: column;*/
+    }
+    .contact-title {
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .social-icons {
+        margin-bottom: 20px;
+    }
+    .contact-title p, .contact-form, textarea {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .contact-form {
+        width: 95%;
+        padding: 2px;
+    }
+    .contact-form form {
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
     }
 
     /* footer styles */
