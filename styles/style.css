@@ -440,5 +440,41 @@ footer p {
         line-height: 26px;
         width: 100%;
     }
+    /* details features styles*/
+    .details-features {
+        margin: 0;
+        padding: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .details-features-content-top h2 {
+        width: 90%;
+    }
+    .details-features-content-top p {
+        width: 95%;
+    }
+    .details-features-description {
+        width: 85%;
+    }
+    .description {
+        width: 90%;
+    }
+    .description, .details-features-subheading {
+        font-weight: 600;
+        line-height: 23px;
+        color: #131313;
+    }
 
+    .details-features-image img {
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn-primary.experience {
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 }
