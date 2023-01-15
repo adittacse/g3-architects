@@ -73,10 +73,6 @@ nav ul li a {
 }
 
 /* banner styles */
-.banner {
-
-}
-
 .banner-info {
     width: 862px;
     margin: 0 auto;
@@ -390,6 +386,7 @@ footer p {
 
 /* responsive design */
 @media only screen and (max-width: 576px){
+    /* logo and ul of nav styles */
     header nav {
         flex-direction: column;
         align-items: start;
@@ -404,5 +401,16 @@ footer p {
         font-size: 30px;
         padding: 10px 0px;
         display: inline-block;
+    }
+    /* banner text styles */
+    .banner-info {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-info h1{
+        font-size: 30px;
+        padding: 0;
+        margin-top: 15px;
     }
 }
